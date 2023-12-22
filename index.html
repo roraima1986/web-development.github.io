@@ -11,12 +11,27 @@
     <!--Estilos-->    
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <!--<link rel="stylesheet" href="./assets/css/dark.css">-->
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <!--JS-->
     <script src="./assets/js/menu-mobile.js"></script>
     <script src="./assets/js/navbar-fixed.js"></script>
+    <script src="./assets/js/dark.js"></script>
 </head>
 <body>    
+    
+    <!--BOTON MODO OSCURO-->
+    <div class="switcher">
+        <button class="switcher__btn">
+            <span class="switcher__icon-light">
+                <i class="fa-solid fa-moon switcher__icon"></i>
+            </span>
+
+            <span class="switcher__icon-dark">
+                <i class="fa-solid fa-lightbulb switcher__icon"></i>
+            </span>
+        </button>
+    </div>
     
     <!--MENU NAVEGACION RESPONSIVE-->
     <div class="menu-mobile">
@@ -130,7 +145,7 @@
 
         <!--MENU-->
         <section class="layout__menu">
-            <header class="menu__navbar">
+            <header class="menu__navbar menu__navbar--fixed">
                 
                 <!--LOGO-->
                 <div class="navbar__logo">
